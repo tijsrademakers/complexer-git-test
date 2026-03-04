@@ -15,7 +15,7 @@
       "enabled" : true,
       "visible" : true,
       "ignore" : false,
-      "label" : "Customer name",
+      "label" : "Remote customer name",
       "labelAlign" : "top",
       "tabIndex" : 0,
       "value" : "{{customerName}}",
