@@ -1,0 +1,85 @@
+{
+  "rows" : [ {
+    "cols" : [ {
+      "designInfo" : {
+        "stencilSuperIds" : [ "base-text" ],
+        "stencilId" : "cloud-text"
+      },
+      "size" : 12,
+      "extraSettings" : {
+        "validationPanelDisplay" : "show",
+        "useDelay" : true,
+        "delay" : 200
+      },
+      "isRequired" : false,
+      "enabled" : true,
+      "visible" : true,
+      "ignore" : false,
+      "label" : "Customer name",
+      "labelAlign" : "top",
+      "tabIndex" : 0,
+      "value" : "{{customerName}}",
+      "id" : "text1",
+      "type" : "text"
+    } ]
+  }, {
+    "cols" : [ {
+      "designInfo" : {
+        "stencilSuperIds" : [ "base-attachment" ],
+        "stencilId" : "cloud-attachment"
+      },
+      "size" : 12,
+      "extraSettings" : {
+        "validationPanelDisplay" : "show",
+        "sharePointStoreCopy" : false,
+        "itemsSource" : "local",
+        "preview" : "none",
+        "allowDelete" : "newOnly",
+        "downloadUrl" : "rest/file/{{id}}",
+        "autoupload" : true
+      },
+      "isRequired" : false,
+      "enabled" : true,
+      "visible" : true,
+      "ignore" : false,
+      "value" : "{{documents}}",
+      "label" : "Documents",
+      "labelAlign" : "top",
+      "tabIndex" : 0,
+      "id" : "attachment1",
+      "type" : "upload"
+    } ]
+  }, {
+    "cols" : [ {
+      "designInfo" : {
+        "stencilSuperIds" : [ "base-text-area" ],
+        "stencilId" : "cloud-text-area"
+      },
+      "size" : 12,
+      "extraSettings" : {
+        "validationPanelDisplay" : "show",
+        "useDelay" : true,
+        "delay" : 200
+      },
+      "isRequired" : false,
+      "enabled" : true,
+      "visible" : true,
+      "ignore" : false,
+      "label" : "Remarks",
+      "labelAlign" : "top",
+      "tabIndex" : 0,
+      "value" : "{{remarks}}",
+      "type" : "textarea",
+      "id" : "text-area1"
+    } ]
+  } ],
+  "metadata" : {
+    "key" : "complexerExampleForm",
+    "name" : "Complexer example form",
+    "description" : null,
+    "version" : "2",
+    "modelType" : "form",
+    "flowableDesignVersion" : 3110,
+    "palette" : "flowable-work-form-palette"
+  }
+}
